@@ -124,7 +124,7 @@ namespace GeonBit.UI.Example
 
             // add show-get button
             Button showGitButton = new Button("Git Repo", ButtonSkin.Fancy, Anchor.TopCenter, new Vector2(280, topPanelHeight));
-            showGitButton.OnClick = (Entity btn) => { System.Diagnostics.Process.Start("https://github.com/RonenNess/GeonBit.UI"); };
+            showGitButton.OnClick = (Entity btn) => {   System.Diagnostics.Process.Start("https://github.com/RonenNess/GeonBit.UI"); };
             topPanel.AddChild(showGitButton);
 
             // add exit button
